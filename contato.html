@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Contato</title>
+<style>
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+header {
+    background-color: #111;
+    padding: 20px;
+}
+nav a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ccc;
+}
+form {
+    background-color: #111;
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ccc;
+}
+footer {
+    margin-top: 30px;
+    background-color: #111;
+    padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Fale Conosco</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<h2>Contato</h2>
+
+<form action="#">
+    <label>Nome:</label><br>
+    <input type="text" name="nome" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+
+    <label>Mensagem:</label><br>
+    <textarea name="mensagem" rows="5" required></textarea><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<footer>
+    <p>Loja Atlético MG</p>
+</footer>
+
+</body>
+</html>
