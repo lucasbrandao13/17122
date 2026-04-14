@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Carrinho</title>
+
 <style>
 body {
     background-color: #000;
@@ -11,39 +12,66 @@ body {
     text-align: center;
     margin: 0;
 }
+
 header {
     background-color: #111;
     padding: 20px;
 }
+
 nav a {
     color: #fff;
     margin: 10px;
     text-decoration: none;
     font-weight: bold;
 }
+
 nav a:hover {
     color: #ccc;
 }
+
 table {
     margin: 30px auto;
     border-collapse: collapse;
-    width: 80%;
-    max-width: 700px;
+    width: 90%;
+    max-width: 800px;
     background-color: #111;
 }
+
 th, td {
     border: 1px solid #fff;
     padding: 12px;
 }
+
 th {
     background-color: #222;
 }
+
+img {
+    border-radius: 10px;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #ccc;
+}
+
 footer {
     margin-top: 30px;
     background-color: #111;
     padding: 15px;
 }
 </style>
+
 </head>
 <body>
 
@@ -62,17 +90,21 @@ footer {
 <table>
     <tr>
         <th>Produto</th>
+        <th>Imagem</th>
         <th>Quantidade</th>
         <th>Preço</th>
     </tr>
     <tr>
         <td>Camisa Atlético MG</td>
+        <td><img src="camisa3.jpg" width="100"></td>
         <td>1</td>
         <td>R$ 1.000,00</td>
     </tr>
 </table>
 
-<p><strong>Total: R$ 1.000,00</strong></p>
+<h3>Total: R$ 1.000,00</h3>
+
+<a href="#" class="botao">Finalizar Compra</a>
 
 <footer>
     <p>Loja Atlético MG</p>
